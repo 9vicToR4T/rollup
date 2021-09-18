@@ -1,0 +1,21 @@
+Rollup
+ - initiem package.json cu npm init -y
+ - instalam npm i -global rollup  - -- am avut nevoie de sudo
+ - creem file rollup.config.js si adaugam deja codul
+ -  @rollup/plugin-babel
+ -  rollup-plugin-styles
+ - rollup-plugin-img
+ --rollup-plugin-serve
+ --"rollup-plugin-livereload"
+ -- rollup -c -w  --- watch
+
+
+
+
+
+devDependencies (--save-dev)
+ - sunt pentru progrmator
+ - pachetele nu se transit in build
+
+dependencies :
+- se duc in build
